@@ -1,6 +1,7 @@
 // #if __cplusplus < 201703L
 // #   error "require c++ 17"
 // #endif
+// g++ -ftemplate-depth=100009 -O2 -std=c++20 $FILENAME
 #include <array>
 #include <iostream>
 
